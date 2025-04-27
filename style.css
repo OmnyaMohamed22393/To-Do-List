@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+}
+.container {
+    width: 60%;
+    height: auto;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container .listInput {
+    margin: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    padding:5px;
+}
+
+.container .data {
+    width: 80%;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.container #btnAdd,
+.container #btnUpdate {
+    padding: 10px;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: 20%;
+    border: none;
+    cursor: pointer;
+    display: block;
+    background-color: #4CAF50; 
+    color: white;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+.custom {
+    width: 18%;
+    background: none;
+    color: #63E6BE;
+    padding: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.custom:hover {
+    background-color: #e0e0e0;
+}
+.taskList .data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.task-content {
+    flex-grow: 1;
+}
+.task-actions {
+    display: flex;
+    gap: 15px;
+}
+.data .done {
+    text-decoration: line-through;
+}
+#search {
+    width: 80%;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
